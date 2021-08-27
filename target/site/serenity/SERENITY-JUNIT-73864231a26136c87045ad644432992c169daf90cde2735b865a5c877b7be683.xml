@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.tests.ManageCartTest" skipped="0" tests="1" time="110.9" timestamp="2021-08-27 01:41:13"><testcase classname="com.tests.ManageCartTest" name="Shopping cart test002"><error message="For input string: &quot;2,275.00&quot;" type="java.lang.NumberFormatException">For input string: "2,275.00"</error><system-err>For input string: "2,275.00"&#13;
+pages.ShoppingCartPage.getProductsFromCart(ShoppingCartPage.java:41)&#13;
+steps.ShoppingCartSteps.verifyProductsAreInShoppingCart(ShoppingCartSteps.java:25)&#13;
+com.tests.ManageCartTest.shoppingCartTest002(ManageCartTest.java:53)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.tests.ManageCartTest" skipped="0" tests="1" time="108.99" timestamp="2021-08-26 02:42:43"><testcase classname="com.tests.ManageCartTest" name="Shopping cart test"><error message="Unknown property 'name' on class 'class models.Product'" type="java.lang.NoSuchMethodException">Unknown property 'name' on class 'class models.Product'</error><system-err>Unknown property 'name' on class 'class models.Product'&#13;
+org.apache.commons.beanutils.PropertyUtilsBean.getSimpleProperty(PropertyUtilsBean.java:1257)&#13;
+org.apache.commons.beanutils.PropertyUtilsBean.getNestedProperty(PropertyUtilsBean.java:808)&#13;
+org.apache.commons.beanutils.PropertyUtilsBean.getProperty(PropertyUtilsBean.java:884)&#13;
+org.apache.commons.beanutils.PropertyUtils.getProperty(PropertyUtils.java:464)&#13;
+tools.utils.SerenitySessionUtils.getObjectByMatchingElement(SerenitySessionUtils.java:38)&#13;
+tools.utils.SerenitySessionUtils.replaceObjectInSerenitySessionList(SerenitySessionUtils.java:31)&#13;
+dao.product.ProductDao.updateProduct(ProductDao.java:29)&#13;
+steps.ShoppingCartSteps.updateProduct(ShoppingCartSteps.java:34)&#13;
+com.tests.ManageCartTest.shoppingCartTest(ManageCartTest.java:34)&#13;
+</system-err></testcase></testsuite>
